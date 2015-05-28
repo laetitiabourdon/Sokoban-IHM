@@ -1,2 +1,1 @@
-# Sokoban
-Mini game
+# Sokoban-IHM
