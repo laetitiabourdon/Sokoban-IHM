@@ -18,6 +18,7 @@ public class DisplayGame implements Runnable
 	{
 		JFrame window = new JFrame();
 
+		
 		window.setTitle("Sokoban");
 		window.setSize(480,500);
 		window.setLocationRelativeTo(null);
