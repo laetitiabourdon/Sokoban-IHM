@@ -1,5 +1,7 @@
 package fr.iutvalence.info.m2103.project.sokoban;
 
+import javax.swing.SwingUtilities;
+
 /**
  * Launcher for a Sokoban game
  * 
@@ -15,9 +17,12 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-		new SokobanGame();
 		
+		Map map = new Map();
 		
+		SwingUtilities.invokeLater(new DisplayGame(map));
+		
+		new SokobanGame(map);
 		
 	}
 

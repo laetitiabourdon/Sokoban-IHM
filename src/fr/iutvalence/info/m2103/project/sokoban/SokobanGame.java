@@ -19,8 +19,8 @@ public class SokobanGame {
 	// TODO (done) this method is not supposed to build anything but to start the game (consider re-reading the very first TODO of this class)
 	
 	
-	public SokobanGame(){
-		this.map = new Map();
+	public SokobanGame(Map map){
+		this.map = map;
 		this.play();
 		
 	}	
